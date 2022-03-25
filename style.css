@@ -33,19 +33,19 @@ body {
 .jsTitleDiv {
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px 10px;
+	padding: 0px 1%;
 	background-color: #F5F5F5;
 	border-radius: 15px;
 	width: max-content;
 	height: max-content;
-	box-shadow: 0px 10px 10px rgba(78, 78, 78, 0.5);
+	box-shadow: 0px 1px 1px rgba(78, 78, 78, 0.5);
 	font-size: 50px;
 }
 
 
 .menu {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 
 .jsMenuDiv {
@@ -55,7 +55,7 @@ body {
 .jsMenuDiv div .subTitle {
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px 10px;
+	padding: 0px 1%;
 	background-color: #F5F5F5;
 	border-radius: 10px;
 	width: max-content;
@@ -70,7 +70,7 @@ body {
 
 .jsMenuDiv div {
 	font-family: 'Courier New', Courier;
-	padding-bottom: 25px;
+	padding-bottom: 2.5%;
 }
 
 .footer {
@@ -104,10 +104,6 @@ body {
 	border-radius: 5px;
 }
 
-#numero {
-	height: 100px;
-}
-
 .options {
 	background-color:#2f2f2f;
 	color: #f2f2f2;
@@ -130,8 +126,8 @@ body {
 
 .listes {
 	text-align: center;
-	padding: 10px;
-	margin-top: 10px;
+	padding: 1%;
+	margin-top: 1%;
 	font-family: 'Courier New', Courier;
 }
 
@@ -143,7 +139,7 @@ body {
 	height: max-content;
 	width: max-content;
 	max-width: 25vw;
-	padding: 10px;
+	padding: 1%;
 	text-align: center;
 	background-color: #F5F5F5;
 	border-radius: 10px;
@@ -157,7 +153,7 @@ body {
 .centerBox {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 10%;
 	margin-bottom: 30vh;
 	height: max-content;
 	width: max-content;
