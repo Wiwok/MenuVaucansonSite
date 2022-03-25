@@ -78,7 +78,7 @@ body {
 	margin-bottom: 0px;
 	position: absolute;
 	width: 99vw;
-	height: 44vh;
+	height: 44vh - 15vw;
 	background-color: #2f2f2f;
 	z-index: 0;
 }
