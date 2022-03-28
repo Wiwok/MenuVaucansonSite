@@ -3,7 +3,6 @@ const days = ['', 'lundi', 'mardi', 'mercredi', 'jeudi']
 let day = today.getDay();
 let date;
 
-console.log(menu);
 if (day == 7) {
 	day = 1;
 	date = menu[0].entree;
@@ -20,7 +19,7 @@ else if (day == 5) {
 }
 
 else if (day == 4) {
-	date = menu[0].plat;
+	date = menu[0].laitier;
 }
 
 else if (day == 3) {
@@ -28,11 +27,11 @@ else if (day == 3) {
 }
 
 else if (day == 2) {
-	date = menu[0].laitier;
+	date = menu[0].plat;
 }
 
 else if (day == 1) {
-	date = menu[0].dessert;
+	date = menu[0].entree;
 }
 
 

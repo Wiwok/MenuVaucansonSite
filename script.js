@@ -4,12 +4,12 @@ let day = today.getDay();
 let date;
 
 if (day == 7) {
-	day = 2;
+	day = 1;
 	date = menu[0].entree;
 }
 
 else if (day == 6) {
-	day = 2;
+	day = 1;
 	date = menu[0].entree;
 }
 

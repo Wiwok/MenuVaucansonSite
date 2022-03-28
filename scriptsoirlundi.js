@@ -1,7 +1,7 @@
 const today = new Date();
 const days = ['', 'lundi', 'mardi', 'mercredi', 'jeudi']
 let day = 1;
-let date = menu[0].dessert;
+let date = menu[0].entree;
 
 
 var select = document.getElementById('list');
