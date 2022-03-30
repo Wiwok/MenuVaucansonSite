@@ -71,5 +71,3 @@ document.getElementById('jsTitle').innerHTML = 'Menu du ' + days[day] + ' ' + da
 document.getElementById('jsTitle').style.color = '#2f2f2f';
 document.getElementById('jsTitle').style.height = 'max-content';
 document.getElementById('jsTitle').style.width = 'max-content';
-document.getElementById('jsTitleDiv').style.height = 'max-content';
-document.getElementById('jsTitleDiv').style.width = 'max-content';

@@ -36,5 +36,3 @@ document.getElementById('jsLaitier').innerHTML = menu[day + 1].laitier;
 document.getElementById('jsDessert').innerHTML = menu[day + 1].dessert;
 document.getElementById('jsTitle').innerHTML = 'Menu du ' + days[day] + ' ' + date + ' au soir';
 document.getElementById('jsTitle').style.color = '#2f2f2f';
-document.getElementById('jsTitleDiv').style.height = 'max-content';
-document.getElementById('jsTitleDiv').style.width = 'max-content';
