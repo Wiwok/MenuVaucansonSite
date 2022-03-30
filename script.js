@@ -61,6 +61,10 @@ function logValue() {
 
 select.addEventListener('change', logValue, false);
 
+var link = document.querySelector("link[rel~='icon']");
+link = document.createElement('link');
+link.rel = 'icon';
+link.href = 'https://menu.anantasystem.com/favicon.ico';
 
 document.getElementById('jsEntree').innerHTML = menu[day + 1].entree;
 document.getElementById('jsPlat').innerHTML = menu[day + 1].plat;
@@ -69,5 +73,3 @@ document.getElementById('jsLaitier').innerHTML = menu[day + 1].laitier;
 document.getElementById('jsDessert').innerHTML = menu[day + 1].dessert;
 document.getElementById('jsTitle').innerHTML = 'Menu du ' + days[day] + ' ' + date;
 document.getElementById('jsTitle').style.color = '#2f2f2f';
-document.getElementById('jsTitle').style.height = 'max-content';
-document.getElementById('jsTitle').style.width = 'max-content';

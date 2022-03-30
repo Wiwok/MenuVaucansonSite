@@ -59,8 +59,11 @@ function logValue() {
 
 select.addEventListener('change', logValue, false);
 
+let link = document.createElement('link');
+link.rel = 'icon';
+link.href = 'https://menu.anantasystem.com/favicon.ico';
 
-
+document.getElementsByTagName('head')[0].appendChild(link)
 document.getElementById('jsEntree').innerHTML = menu[day + 1].entree;
 document.getElementById('jsPlat').innerHTML = menu[day + 1].plat;
 document.getElementById('jsLegume').innerHTML = menu[day + 1].legume;
