@@ -13,7 +13,7 @@ body {
 	/* Chrome10-25, Safari5.1-6 */
 	background: linear-gradient(130deg, #29FF9C 0%, #f1b640 99%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#29FF9C', endColorstr='#f1b640', GradientType=1);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#29FF9C', endColorstr='#f1b640', GradientType=1);
 	/* IE6-9*/
 	background-attachment: fixed;
 	overflow-x: hidden;
@@ -105,7 +105,7 @@ body {
 }
 
 .options {
-	background-color:#2f2f2f;
+	background-color: #2f2f2f;
 	color: #f2f2f2;
 	font-size: 20px;
 	border: 0px;
