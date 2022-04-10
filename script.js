@@ -3,7 +3,7 @@ const days = ['', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi'];
 let day = today.getDay();
 let date;
 
-if (day == 7) {
+if (day == 0) {
 	day = 1;
 	date = menu[0].entree;
 }
