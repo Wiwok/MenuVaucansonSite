@@ -7,17 +7,18 @@ html {
 }
 
 body {
-	background: -moz-linear-gradient(130deg, #29FF9C 0%, #f1b640 99%);
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(130deg, #29FF9C 0%, #f1b640 99%);
+	background: -moz-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
 	/* Chrome10-25, Safari5.1-6 */
-	background: linear-gradient(130deg, #29FF9C 0%, #f1b640 99%);
+	background: -webkit-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#29FF9C', endColorstr='#f1b640', GradientType=1);
+	background: linear-gradient(20deg, #00b318 0%, #007dd1 99%);
 	/* IE6-9*/
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00b318', endColorstr='#007dd1', GradientType=1);
 	background-attachment: fixed;
 	overflow-x: hidden;
 	color: #2f2f2f;
+	font-size: 14px;
 	margin: 0px;
 	padding: 0px;
 	margin: 0px;
@@ -94,7 +95,6 @@ body {
 	background-color: #353535;
 	text-decoration: underline;
 	cursor: pointer;
-
 }
 
 .footer div p {
@@ -120,10 +120,6 @@ body {
 	cursor: pointer;
 }
 
-.options:focus {
-	border: 0px;
-}
-
 .listes {
 	text-align: center;
 	padding: 1%;
@@ -139,6 +135,8 @@ body {
 .infoBox {
 	height: max-content;
 	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 25vw;
 	padding: 1%;
 	text-align: center;
