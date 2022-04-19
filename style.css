@@ -27,6 +27,30 @@ body {
 	font-family: 'Courier New', Courier;
 }
 
+body:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	/* FF3.6-15 */
+	background: -moz-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	/* Chrome10-25, Safari5.1-6 */
+	background: -webkit-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	/* IE6-9*/
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00b318', endColorstr='#007dd1', GradientType=1);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
 .title {
 	text-align: center;
 }
