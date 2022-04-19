@@ -82,7 +82,7 @@ body:before {
 	margin-right: auto;
 	padding: 0px 1%;
 	background-color: #F5F5F5;
-	border-radius: 10px;
+	border-radius: 0.7vmax;
 	width: max-content;
 	height: max-content;
 	font-style: italic;
