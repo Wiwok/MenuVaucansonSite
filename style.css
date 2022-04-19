@@ -62,7 +62,7 @@ body:before {
 	background-color: #F5F5F5;
 	border-radius: 15px;
 	width: max-content;
-	height: max-content;
+	height: min-content;
 	box-shadow: 0px 1px 1px rgba(78, 78, 78, 0.5);
 	font-size: 50px;
 }
