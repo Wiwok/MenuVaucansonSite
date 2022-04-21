@@ -1,19 +1,31 @@
 @media (min-width: 640px) {
-	body {
-		font-size: 1rem;
+	.infoTitle {
+		font-size: 2.7vmax;
 	}
-}
 
-@media (min-width:960px) {
-	body {
-		font-size: 1.2rem;
+	.infoBody {
+		font-size: 2vmax;
+	}
+
+	.infoBox {
+		max-width: 50vw;
 	}
 }
 
 @media (min-width:1100px) {
-	body {
-		font-size: 1.5rem;
+
+	.infoTitle {
+		font-size: 2vmax;
 	}
+
+	.infoBody {
+		font-size: 1.5vmax;
+	}
+
+	.infoBox {
+		max-width: 30vw;
+	}
+
 }
 
 html {
@@ -119,7 +131,7 @@ body:before {
 	margin-left: 0px;
 	margin-bottom: 0px;
 	position: absolute;
-	width: 99vw;
+	width: 100vw;
 	height: max-content;
 	background-color: #2f2f2f;
 	z-index: 0;
@@ -150,7 +162,7 @@ body:before {
 	color: #f2f2f2;
 	font-size: 20px;
 	border: 0px;
-	border-radius: 5px;
+	border-radius: 0.5vmax;
 	padding: 5px;
 	font-family: 'Courier New', Courier;
 }
@@ -173,23 +185,6 @@ body:before {
 	text-align: center;
 }
 
-.infoBox {
-	height: max-content;
-	width: max-content;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 25vw;
-	padding: 1%;
-	text-align: center;
-	background-color: #F5F5F5;
-	border-radius: 10px;
-}
-
-
-.infoTitle {
-	font-size: 20px;
-}
-
 .centerBox {
 	margin-left: auto;
 	margin-right: auto;
@@ -201,4 +196,15 @@ body:before {
 
 .infoSpacer {
 	margin: 5vw 0px;
+}
+
+.infoBox {
+	height: max-content;
+	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #F5F5F5;
+	border-radius: 1vmax;
+	padding: 1vmax;
 }
