@@ -154,18 +154,22 @@ body:before {
 
 .footer div p {
 	color: #f2f2f2;
-	font-size: 20px;
-	padding: 10px;
+	font-size: 1.5vmax;
+	padding: 1vmax;
 	border-radius: 0.5vmax;
+}
+
+.footerelement {
+	margin: 1vmax;
 }
 
 .options {
 	background-color: #2f2f2f;
 	color: #f2f2f2;
-	font-size: 20px;
+	font-size: 1.5vmax;
 	border: 0px;
 	border-radius: 0.5vmax;
-	padding: 5px;
+	padding: 1vmax;
 	font-family: 'Courier New', Courier;
 }
 
