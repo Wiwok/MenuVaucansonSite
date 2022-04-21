@@ -141,10 +141,17 @@ body:before {
 
 .footer div {
 	width: max-content;
-	height: max-content;
+	height: min-content;
 	border-radius: 0.7vmax;
 	margin: 0px auto;
 	text-align: center;
+}
+
+.footer div p {
+	color: #f2f2f2;
+	font-size: 1.5vmax;
+	padding: 1vmax;
+	border-radius: 0.7vmax;
 }
 
 .footerelement:hover {
@@ -156,13 +163,6 @@ body:before {
 .footerelement {
 	margin: 1vmax;
 	font-size: 1.5vmax;
-}
-
-.footer div p {
-	color: #f2f2f2;
-	font-size: 1.5vmax;
-	padding: 1vmax;
-	border-radius: 0.7vmax;
 }
 
 .options {
