@@ -105,7 +105,7 @@ body:before {
 }
 
 .jsMenuDiv {
-	font-size: 25px;
+	font-size: 2vmax;
 }
 
 .jsMenuDiv div .subTitle {
@@ -115,7 +115,7 @@ body:before {
 	background-color: #F5F5F5;
 	border-radius: 0.7vmax;
 	width: max-content;
-	height: max-content;
+	height: min-content;
 	font-style: italic;
 	box-shadow: 0px 10px 25px rgba(78, 78, 78, 0.5);
 }
@@ -144,6 +144,7 @@ body:before {
 	height: max-content;
 	border-radius: 0.7vmax;
 	margin: 0px auto;
+	text-align: center;
 }
 
 .footerelement:hover {
@@ -152,15 +153,16 @@ body:before {
 	cursor: pointer;
 }
 
+.footerelement {
+	margin: 1vmax;
+	font-size: 1.5vmax;
+}
+
 .footer div p {
 	color: #f2f2f2;
 	font-size: 1.5vmax;
 	padding: 1vmax;
 	border-radius: 0.7vmax;
-}
-
-.footerelement {
-	margin: 1vmax;
 }
 
 .options {
@@ -184,6 +186,7 @@ body:before {
 	padding: 1%;
 	margin-top: 1%;
 	margin-bottom: 10%;
+	font-size: 1.5vmax;
 	font-family: 'Courier New', Courier;
 }
 
