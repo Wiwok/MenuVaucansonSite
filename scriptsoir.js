@@ -38,36 +38,30 @@ else if (day == 1) {
 var select = document.getElementById('list');
 
 function logValue() {
-    switch (this.value) {
+	switch (this.value) {
 		case '0':
-			window.location.href='./index.html';
+			window.location.href = './index.html';
 			break;
-        case '1':
-			window.location.href='./lundi.html';
-            break;
+		case '1':
+			window.location.href = './lundi.html';
+			break;
 		case '2':
-			window.location.href='./mardi.html';
-            break;
-        case '3':
-			window.location.href='./mercredi.html';
-            break;
-		case '4':
-			window.location.href='./jeudi.html';
+			window.location.href = './mardi.html';
 			break;
-    }
+		case '3':
+			window.location.href = './mercredi.html';
+			break;
+		case '4':
+			window.location.href = './jeudi.html';
+			break;
+	}
 }
 
 select.addEventListener('change', logValue, false);
 
-let link = document.createElement('link');
-link.rel = 'icon';
-link.href = 'https://menu.anantasystem.com/favicon.ico';
-
-document.getElementsByTagName('head')[0].appendChild(link)
 document.getElementById('jsEntree').innerHTML = menu[day + 1].entree;
 document.getElementById('jsPlat').innerHTML = menu[day + 1].plat;
 document.getElementById('jsLegume').innerHTML = menu[day + 1].legume;
 document.getElementById('jsLaitier').innerHTML = menu[day + 1].laitier;
 document.getElementById('jsDessert').innerHTML = menu[day + 1].dessert;
 document.getElementById('jsTitle').innerHTML = 'Menu du ' + days[day] + ' ' + date + ' au soir';
-document.getElementById('jsTitle').style.color = '#2f2f2f';
