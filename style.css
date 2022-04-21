@@ -190,8 +190,8 @@ body:before {
 .centerBox {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
-	margin-bottom: 30vh;
+	margin-top: 5%;
+	margin-bottom: 10%;
 	height: max-content;
 	width: max-content;
 }
