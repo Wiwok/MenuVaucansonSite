@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 0) {
 	.infoTitle {
 		font-size: 2.7vmax;
 	}
@@ -94,7 +94,7 @@ body:before {
 	border-radius: 0.7vmax;
 	width: max-content;
 	height: min-content;
-	box-shadow: 0 1px 1px rgba(78, 78, 78, 0.5);
+	box-shadow: 0 0.7vmax 3vmax rgba(78, 78, 78, 0.534);
 	font-size: 3.7vmax;
 }
 
