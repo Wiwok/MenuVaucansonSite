@@ -117,7 +117,7 @@ body:before {
 	width: max-content;
 	height: min-content;
 	font-style: italic;
-	box-shadow: 0 10px 25px rgba(78, 78, 78, 0.5);
+	box-shadow: 0 0.5vmax 1vmax rgba(78, 78, 78, 0.5);
 }
 
 .jsMenuDiv div .subP {
