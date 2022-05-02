@@ -215,3 +215,13 @@ body:before {
 	border-radius: 0.7vmax;
 	padding: 1vmax;
 }
+
+a {
+	text-decoration: underline;
+	color: #202020;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #202020;
+}
