@@ -1,7 +1,10 @@
-const today = new Date();
 const days = ['', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi'];
-let day = today.getDay();
+
 let date;
+
+if (day == -1) {
+	day = new Date().getDay();
+}
 
 if (day == 0) {
 	day = 1;

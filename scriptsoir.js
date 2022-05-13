@@ -1,7 +1,9 @@
-const today = new Date();
 const days = ['', 'lundi', 'mardi', 'mercredi', 'jeudi']
-let day = today.getDay();
 let date;
+
+if (day == -1) {
+	day = new Date().getDay();
+}
 
 if (day == 0) {
 	day = 1;
@@ -40,19 +42,19 @@ var select = document.getElementById('list');
 function logValue() {
 	switch (this.value) {
 		case '0':
-			window.location.href = './index.html';
+			window.location.href = './menusoir.html';
 			break;
 		case '1':
-			window.location.href = './lundi.html';
+			window.location.href = './menusoirlundi.html';
 			break;
 		case '2':
-			window.location.href = './mardi.html';
+			window.location.href = './menusoirmardi.html';
 			break;
 		case '3':
-			window.location.href = './mercredi.html';
+			window.location.href = './menusoirmercredi.html';
 			break;
 		case '4':
-			window.location.href = './jeudi.html';
+			window.location.href = './menusoirjeudi.html';
 			break;
 	}
 }
