@@ -245,6 +245,7 @@ a:visited {
 	margin-bottom: 10%;
 	height: max-content;
 	width: max-content;
+	max-width: 70vw;
 	font-size: 1.7vmax;
 }
 
