@@ -1,0 +1,55 @@
+SetEnv TZ Europe/Paris
+
+#Removing ".html" in URL
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+#Forcing HTTPS
+RewriteEngine On
+RewriteCond %{Server_Port} !=443
+RewriteRule ^(.*)$ https://anantasystem.com/$1 [R=301,L]
+
+#Switching to errors pages
+ErrorDocument 400 /errors/400.html
+ErrorDocument 401 /errors/401.html
+ErrorDocument 402 /errors/402.html
+ErrorDocument 403 /errors/403.html
+ErrorDocument 404 /errors/404.html
+ErrorDocument 405 /errors/405.html
+ErrorDocument 406 /errors/406.html
+ErrorDocument 407 /errors/407.html
+ErrorDocument 408 /errors/408.html
+ErrorDocument 409 /errors/409.html
+ErrorDocument 410 /errors/410.html
+ErrorDocument 411 /errors/411.html
+ErrorDocument 412 /errors/412.html
+ErrorDocument 413 /errors/413.html
+ErrorDocument 414 /errors/414.html
+ErrorDocument 415 /errors/415.html
+ErrorDocument 416 /errors/416.html
+ErrorDocument 417 /errors/417.html
+ErrorDocument 421 /errors/421.html
+ErrorDocument 422 /errors/422.html
+ErrorDocument 423 /errors/423.html
+ErrorDocument 424 /errors/424.html
+ErrorDocument 426 /errors/426.html
+ErrorDocument 428 /errors/428.html
+ErrorDocument 429 /errors/429.html
+ErrorDocument 451 /errors/451.html
+
+#These errors are not handled by the server
+#ErrorDocument 418 /errors/418.html
+#ErrorDocument 425 /errors/425.html
+#ErrorDocument 449 /errors/449.html
+#ErrorDocument 450 /errors/450.html
+#ErrorDocument 456 /errors/456.html
+#ErrorDocument 495 /errors/495.html
+#ErrorDocument 496 /errors/496.html
+#ErrorDocument 497 /errors/497.html
+#ErrorDocument 498 /errors/498.html
+#ErrorDocument 499 /errors/499.html
