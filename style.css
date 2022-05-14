@@ -247,16 +247,33 @@ a:visited {
 	width: max-content;
 	max-width: 70vw;
 	font-size: 1.7vmax;
+	text-align: center;
+}
+
+.centerErrorBox p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.errorNameBox {
+	height: min-content;
+	width: max-content;
+	margin-bottom: 3vmax;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #F5F5F5;
+	border-radius: 0.7vmax;
+	padding: 0.7vmax;
+}
+
+.errorNameBox p {
+	margin: 0;
+	font-size: 2vmax;
+	font-style: italic;
 }
 
 .errorTitle {
 	margin: 0;
 	font-size: 3vmax;
-}
-
-.errorReturn {
-	background-color: #F5F5F5;
-	border-radius: 0.7vmax;
-	margin: 0;
-	padding: 0.3vmax;
 }
