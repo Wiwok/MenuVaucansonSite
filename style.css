@@ -39,13 +39,13 @@ html {
 
 body {
 	/* FF3.6-15 */
-	background: -moz-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: -moz-linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* Chrome10-25, Safari5.1-6 */
-	background: -webkit-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: -webkit-linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background: linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* IE6-9*/
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00b318', endColorstr='#007dd1', GradientType=1);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#DE1016', endColorstr='#E6AB32', GradientType=1);
 	background-attachment: fixed;
 	overflow-x: hidden;
 	color: #202020;
@@ -68,13 +68,13 @@ body:before {
 	height: 100%;
 	z-index: -10;
 	/* FF3.6-15 */
-	background: -moz-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: -moz-linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* Chrome10-25, Safari5.1-6 */
-	background: -webkit-linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: -webkit-linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background: linear-gradient(20deg, #00b318 0%, #007dd1 99%);
+	background: linear-gradient(50deg, #DE1016 5%, #E6AB32 99%);
 	/* IE6-9*/
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00b318', endColorstr='#007dd1', GradientType=1);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#DE1016', endColorstr='#E6AB32', GradientType=1);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
